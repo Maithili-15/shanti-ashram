@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const { sharedDb } = require("../config/db");
+const User = require("./User");
 const {
   multilingualField,
   multilingualFieldRequired,
@@ -73,11 +75,11 @@ const eventSchema = new mongoose.Schema(
     // Audit trail
     createdBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
     updatedBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
   },
   {
@@ -124,4 +126,4 @@ eventSchema.pre("save", function () {
   }
 });
 
-module.exports = mongoose.model("Event", eventSchema);
+module.exports = sharedDb.models.Event || sharedDb.model("Event", eventSchema);

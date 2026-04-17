@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const { mainDb } = require("../config/db");
 
 /**
  * User Schema
@@ -66,4 +67,4 @@ userSchema.index({ role: 1 });
 userSchema.index({ referralCode: 1 }); // Fast lookup for donation attribution
 userSchema.index({ "collectorProfile.status": 1 }); // Fast lookup for pending applications
 
-module.exports = mongoose.model("User", userSchema);
+module.exports = mainDb.models.User || mainDb.model("User", userSchema);

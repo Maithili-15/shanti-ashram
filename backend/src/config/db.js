@@ -1,28 +1,29 @@
 const mongoose = require("mongoose");
 
-const connectDB = async () => {
-  const maxRetries = 5;
-  const retryDelay = 5000; // 5 seconds
+const mainDb = mongoose.createConnection(process.env.MONGO_URI);
+const sharedDb = mongoose.createConnection(process.env.MONGO_URI_SHARED);
 
-  for (let attempt = 1; attempt <= maxRetries; attempt++) {
-    try {
-      await mongoose.connect(process.env.MONGO_URI, {
-        serverSelectionTimeoutMS: 5000,
-      });
-      console.log("✅ MongoDB connected");
-      return;
-    } catch (error) {
-      console.error(`❌ MongoDB connection attempt ${attempt}/${maxRetries} failed:`, error.message);
-      
-      if (attempt < maxRetries) {
-        console.log(`⏳ Retrying in ${retryDelay / 1000} seconds...`);
-        await new Promise((resolve) => setTimeout(resolve, retryDelay));
-      }
-    }
+const connectDB = async () => {
+  if (!process.env.MONGO_URI) {
+    console.error("❌ Missing required environment variable: MONGO_URI");
+    process.exit(1);
   }
-  
-  console.error("❌ Could not connect to MongoDB after", maxRetries, "attempts");
-  process.exit(1);
+
+  if (!process.env.MONGO_URI_SHARED) {
+    console.error("❌ Missing required environment variable: MONGO_URI_SHARED");
+    process.exit(1);
+  }
+
+  try {
+    await Promise.all([mainDb.asPromise(), sharedDb.asPromise()]);
+    console.log("✅ MongoDB mainDb connected");
+    console.log("✅ MongoDB sharedDb connected");
+  } catch (error) {
+    console.error("❌ MongoDB connection failed:", error.message);
+    process.exit(1);
+  }
 };
 
 module.exports = connectDB;
+module.exports.mainDb = mainDb;
+module.exports.sharedDb = sharedDb;

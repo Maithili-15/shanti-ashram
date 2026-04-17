@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const { sharedDb } = require("../config/db");
+const User = require("./User");
 const {
   multilingualField,
   multilingualFieldRequired,
@@ -48,11 +50,11 @@ const announcementSchema = new mongoose.Schema(
     // Audit trail
     createdBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
     updatedBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
   },
   {
@@ -80,4 +82,6 @@ announcementSchema.virtual("isCurrentlyActive").get(function () {
 announcementSchema.set("toJSON", { virtuals: true });
 announcementSchema.set("toObject", { virtuals: true });
 
-module.exports = mongoose.model("Announcement", announcementSchema);
+module.exports =
+  sharedDb.models.Announcement ||
+  sharedDb.model("Announcement", announcementSchema);

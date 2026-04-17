@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const { sharedDb } = require("../config/db");
+const User = require("./User");
 const { multilingualField, multilingualFieldRequired } = require("../utils/multilingualField");
 
 /**
@@ -32,11 +34,11 @@ const bannerSchema = new mongoose.Schema(
     // Audit trail
     createdBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
     updatedBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
   },
   {
@@ -47,4 +49,4 @@ const bannerSchema = new mongoose.Schema(
 // Index for efficient querying of active banners sorted by order
 bannerSchema.index({ isActive: 1, order: 1 });
 
-module.exports = mongoose.model("Banner", bannerSchema);
+module.exports = sharedDb.models.Banner || sharedDb.model("Banner", bannerSchema);

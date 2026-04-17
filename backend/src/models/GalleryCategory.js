@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const { sharedDb } = require("../config/db");
+const User = require("./User");
 const {
   multilingualField,
   multilingualFieldRequired,
@@ -80,11 +82,11 @@ const galleryCategorySchema = new mongoose.Schema(
     // Audit trail
     createdBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
     updatedBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
   },
   {
@@ -126,4 +128,6 @@ galleryCategorySchema.virtual("imageCount").get(function () {
 galleryCategorySchema.set("toJSON", { virtuals: true });
 galleryCategorySchema.set("toObject", { virtuals: true });
 
-module.exports = mongoose.model("GalleryCategory", galleryCategorySchema);
+module.exports =
+  sharedDb.models.GalleryCategory ||
+  sharedDb.model("GalleryCategory", galleryCategorySchema);

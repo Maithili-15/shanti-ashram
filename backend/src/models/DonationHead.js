@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const { sharedDb } = require("../config/db");
+const User = require("./User");
 const {
   multilingualField,
   multilingualFieldRequired,
@@ -126,11 +128,11 @@ const donationHeadSchema = new mongoose.Schema(
     // Audit trail
     createdBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
     updatedBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
   },
   {
@@ -156,4 +158,6 @@ donationHeadSchema.virtual("collectedPercentage").get(function () {
 donationHeadSchema.set("toJSON", { virtuals: true });
 donationHeadSchema.set("toObject", { virtuals: true });
 
-module.exports = mongoose.model("DonationHead", donationHeadSchema);
+module.exports =
+  sharedDb.models.DonationHead ||
+  sharedDb.model("DonationHead", donationHeadSchema);

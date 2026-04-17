@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const { sharedDb } = require("../config/db");
+const User = require("./User");
 
 /**
  * Product Category Schema
@@ -68,11 +70,11 @@ const productCategorySchema = new mongoose.Schema(
     // Audit trail
     createdBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
     updatedBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
   },
   {
@@ -107,4 +109,6 @@ productCategorySchema.virtual("productCount", {
 productCategorySchema.set("toJSON", { virtuals: true });
 productCategorySchema.set("toObject", { virtuals: true });
 
-module.exports = mongoose.model("ProductCategory", productCategorySchema);
+module.exports =
+  sharedDb.models.ProductCategory ||
+  sharedDb.model("ProductCategory", productCategorySchema);

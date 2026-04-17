@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const { sharedDb } = require("../config/db");
+const User = require("./User");
 
 /**
  * Testimonial Schema
@@ -61,13 +63,13 @@ const testimonialSchema = new mongoose.Schema(
     // Reference to user if logged in when submitting
     user: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
       default: null,
     },
     // Audit trail
     approvedBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: User,
     },
     approvedAt: {
       type: Date,
@@ -83,4 +85,5 @@ testimonialSchema.index({ isApproved: 1, order: 1 });
 testimonialSchema.index({ isFeatured: 1 });
 testimonialSchema.index({ createdAt: -1 });
 
-module.exports = mongoose.model("Testimonial", testimonialSchema);
+module.exports =
+  sharedDb.models.Testimonial || sharedDb.model("Testimonial", testimonialSchema);
