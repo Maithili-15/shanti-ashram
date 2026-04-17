@@ -143,7 +143,7 @@ const Step4Payment = ({ data, updateData, nextStep, prevStep }) => {
           amount: orderData.amount, // Backend already provides amount in paise - DO NOT multiply
           currency: orderData.currency,
           order_id: orderData.razorpayOrderId,
-          name: "Shri Gurudev Ashram",
+          name: "Shanti Ashram",
           description: `Donation for ${data.donationHead?.name || "Seva"}`,
           prefill: {
             name: data.name,

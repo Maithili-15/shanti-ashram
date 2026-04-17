@@ -13,27 +13,22 @@ const Gurudev = () => {
           <div className="flex flex-col items-center text-center">
             {/* Portrait Image */}
             <div className="relative mb-8">
-              <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden shadow-xl ring-4 ring-amber-100">
+              <div className="w-60 h-72 sm:w-64 sm:h-80 md:w-72 md:h-96 overflow-hidden shadow-xl border border-amber-200 bg-amber-50 p-2">
                 <img
                   src="/assets/gurudev.jpg"
                   alt="Param Pujya Shri Swami Harichaitanyanand Saraswatiji Maharaj"
-                  className="w-full h-full object-cover object-[65%-38%]"
+                  className="w-full h-full object-cover object-[50%_20%]"
                 />
               </div>
-              {/* Subtle decorative ring */}
-              <div className="absolute inset-0 w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full border-2 border-amber-200/50 -m-1 pointer-events-none"></div>
+              <span className="pointer-events-none absolute -left-2 -top-2 h-6 w-6 border-l-2 border-t-2 border-amber-500/70" />
+              <span className="pointer-events-none absolute -bottom-2 -right-2 h-6 w-6 border-b-2 border-r-2 border-amber-500/70" />
             </div>
 
-            {/* Name in Serif Font */}
+            <p className="mb-2 text-sm uppercase tracking-[0.16em] text-amber-700">
+              Param Pujya
+            </p>
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-amber-900 mb-4 leading-tight">
-              {t("gurudev.name")
-                .split("\n")
-                .map((line, i) => (
-                  <span key={i}>
-                    {line}
-                    {i === 0 && <br />}
-                  </span>
-                ))}
+              Swami Harichaitanyanand Saraswatiji Maharaj
             </h1>
 
             {/* Thin Saffron Divider */}
