@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import ShlokaBand from "../components/ShlokaBand";
 import Footer from "../components/Footer";
 import FloatingDonateButton from "../components/FloatingDonateButton";
 
@@ -13,6 +14,7 @@ const MainLayout = () => {
       >
         <Outlet />
       </main>
+      <ShlokaBand />
       <Footer />
       <FloatingDonateButton />
     </div>

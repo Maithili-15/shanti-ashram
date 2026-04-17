@@ -32,7 +32,7 @@
     "ashramNameHi": "श्री गुरुदेव आश्रम",
     "ashramLocationHi": "श्री गुरुदेव आश्रम,\nपळसखेड (सपकाळ)",
     "aboutSubmenu": {
-      "shriGurudevAshram": "Shri Gurudev Ashram",
+      "shriGurudevAshram": "Shanti Ashram",
       "shantiAshram": "Shanti Ashram"
     }
   },
@@ -42,14 +42,14 @@
     "shopComingSoon": "Shop Coming Soon"
   },
   "home": {
-    "title": "Shri Gurudev Ashram Palaskhed Sapkal",
+    "title": "Shanti Ashram Palaskhed Sapkal",
     "subtitle": "Param Pujya Shri Swami Harichaitanyanand Saraswatiji Maharaj's seva kshetra for bhakti, gyan and nishkam seva",
     "aboutTitle": "About Our Ashram",
     "aboutSubtitle": "Serving devotees through satsang, annadan, education, gau seva and selfless service",
     "gurudevName1": "Param Pujya Shri Swami",
     "gurudevName2": "Harichaitanyanand Saraswatiji Maharaj",
     "ashramLocations": "Ashram Locations",
-    "ashramAddress1": "Shri Gurudev Ashram, Palaskhed Sapkal, Tehsil Chikhli, District Buldhana, Maharashtra - 443001",
+    "ashramAddress1": "Shanti Ashram, Palaskhed Sapkal, Tehsil Chikhli, District Buldhana, Maharashtra - 443001",
     "ashramAddress2": "Swami Harichaitanya Shanti Ashram Trust, Datala, Tehsil Malkapur, District Buldhana - 443102",
     "contactNumbers": "Contact Numbers",
     "emailWebsite": "Email & Website",
@@ -72,7 +72,7 @@
   },
   "gurudev": {
     "name": "Param Pujya Shri Swami\nHarichaitanyanand Saraswatiji Maharaj",
-    "description": "Founder and spiritual guide of Shri Gurudev Ashram (Palaskhed Sapkal, Chikhli, Buldhana) and Swami Harichaitanya Shanti Ashram Trust (Datala, Malkapur)",
+    "description": "Founder and spiritual guide of Shanti Ashram (Palaskhed Sapkal, Chikhli, Buldhana) and Swami Harichaitanya Shanti Ashram Trust (Datala, Malkapur)",
     "about1": "Gurudev ji showed the path of living with bhakti, gyan and selfless seva together. Through daily satsang, Gita path, Haripath, annadan, education, medical, gaushala, gurukulam, adivasi seva, anath ashram and Seva Tirth Dham, service is rendered to society at the ashram.",
     "about2": "The purpose of every seva work is to purify the mind and uplift society. Branches and services inspired by Gurudev ji connect devotees across different parts of the country.",
     "teachingsTitle": "Teachings & Daily Sadhana",
@@ -95,8 +95,8 @@
     "branches": {
       "malvihir": "Shri Vaishnavi Gita Ashram, Malvihir, District Buldhana",
       "datala": "Shri Harichaitanya Shanti Ashram, Datala, Tehsil Malkapur, District Buldhana",
-      "muktainagar": "Shri Gurudev Ashram, Muktainagar, District Jalgaon",
-      "kothala": "Shri Gurudev Ashram, Kothala, Tehsil Manwat, District Parbhani",
+      "muktainagar": "Shanti Ashram, Muktainagar, District Jalgaon",
+      "kothala": "Shanti Ashram, Kothala, Tehsil Manwat, District Parbhani",
       "shindi": "Shri Harichaitanya Godham, Shindi Harali, Chikhli, District Buldhana",
       "belgaum": "Shri Balmukund Ashram, Belgaum, Karnataka"
     },
@@ -123,8 +123,8 @@
     "darshanMorning": "04:30 am to 01:00 pm",
     "darshanEvening": "04:30 pm to 09:00 pm",
     "timingsNote": "Temple timings may be changed on special occasions.",
-    "ashramName": "Shri Gurudev Ashram",
-    "ashramAddress1": "Shri Gurudev Ashram, Palaskhed Sapkal, Tehsil Chikhli, District Buldhana, Maharashtra - 443001",
+    "ashramName": "Shanti Ashram",
+    "ashramAddress1": "Shanti Ashram, Palaskhed Sapkal, Tehsil Chikhli, District Buldhana, Maharashtra - 443001",
     "ashramAddress2": "Swami Harichaitanya Shanti Ashram Trust, Datala, Tehsil Malkapur, District Buldhana - 443102",
     "followUs": "FOLLOW US",
     "socialHandle": "@swamiharichaitanyanands",
@@ -137,14 +137,14 @@
     "branches": {
       "malvihir": "Shri Vaishnavi Gita Ashram, Malvihir, District Buldhana",
       "datala": "Shri Harichaitanya Shanti Ashram, Datala, Tehsil Malkapur, District Buldhana",
-      "muktainagar": "Shri Gurudev Ashram, Muktainagar, District Jalgaon",
-      "kothala": "Shri Gurudev Ashram, Kothala, Tehsil Manwat, District Parbhani",
+      "muktainagar": "Shanti Ashram, Muktainagar, District Jalgaon",
+      "kothala": "Shanti Ashram, Kothala, Tehsil Manwat, District Parbhani",
       "shindi": "Shri Harichaitanya Godham, Shindi Harali, Chikhli, District Buldhana",
       "belgaum": "Shri Balmukund Ashram, Belgaum, Karnataka"
     },
     "bankTitle": "Bank Account Details",
     "bank1": {
-      "name": "Shri Gurudev Ashram",
+      "name": "Shanti Ashram",
       "bank": "State Bank of India",
       "account": "A/c No: 32035015646",
       "ifsc": "IFSC: SBIN0008409",
@@ -158,7 +158,7 @@
       "branch": "Branch: Buldhana"
     },
     "taxNote": "Donations are tax-exempt under Section 80G of the Income Tax Act, 1961.",
-    "copyright": "© {{year}} Shri Gurudev Ashram, Palaskhed Sapkal. All rights reserved."
+    "copyright": "© {{year}} Shanti Ashram, Palaskhed Sapkal. All rights reserved."
   },
   "donation": {
     "makeTitle": "Make a Donation",
@@ -563,7 +563,7 @@
     "title": "Top Collectors",
     "subtitle": "Our amazing volunteers helping spread the word",
     "heading": "Collector Leaderboard",
-    "description": "Recognizing collectors who have helped gather the most donations for Shri Gurudev Ashram",
+    "description": "Recognizing collectors who have helped gather the most donations for Shanti Ashram",
     "rank": "Rank",
     "collector": "Collector",
     "totalCollected": "Total Collected",
@@ -574,7 +574,7 @@
     "noCollectorsNote": "Be the first to become a collector and help spread our mission.",
     "becomeCollector": "Become a Collector",
     "wantOnLeaderboard": "Want to be on the leaderboard?",
-    "spreadWord": "Become a collector and help spread the word about Shri Gurudev Ashram's mission.",
+    "spreadWord": "Become a collector and help spread the word about Shanti Ashram's mission.",
     "makeDonation": "Make a Donation",
     "infoNote": "Leaderboard shows top 5 collectors by total donation amount collected.\nOnly successful donations are counted.",
     "tryAgain": "Try Again"
@@ -588,7 +588,7 @@
     "shareEmail": "Share via Email",
     "share": "Share",
     "close": "Close",
-    "emailSubject": "Support Shri Gurudev Ashram - Donate Now",
+    "emailSubject": "Support Shanti Ashram - Donate Now",
     "shareTitle": "Share Your Referral Link",
     "shareDescription": "Generate a personalized donation link to share with friends and family",
     "simpleLink": "Simple Link",

@@ -86,7 +86,7 @@ const ReferralLinkGenerator = ({ referralCode, collectorName }) => {
     let message = "";
     message += "Jai Gurudev!\n\n";
 
-    message += "Shri Gurudev Ashram ki seva mein aapka swagat hai.\n\n";
+    message += "Shanti Ashram ki seva mein aapka swagat hai.\n\n";
 
     if (selectedCause) {
       message += `Seva: *${causeName}*\n\n`;
