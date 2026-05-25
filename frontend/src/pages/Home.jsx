@@ -52,10 +52,10 @@ const Home = () => {
 
             <div className="flex items-start">
               <h1
-                className="text-5xl leading-tight text-[#1c1c19] md:text-7xl"
+                className="text-4xl leading-tight text-[#1c1c19] md:text-5xl"
                 style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}
               >
-                Shanti Ashram
+                Swami Hairchaitanya Shanti Ashram Trust
               </h1>
             </div>
 
@@ -99,7 +99,7 @@ const Home = () => {
               </div>
               <div className="mb-3 text-sm tracking-[0.04em] text-[#d4874a]">भक्ति</div>
               <p className="text-[13.5px] leading-7 text-[#5a3820]">
-                Pure devotion is the highest path. At Shanti Ashram, each day begins and ends in surrender - through aarti, kirtan, and the quiet remembrance of the Divine that flows beneath all activity.
+                Pure devotion is the highest path. At Swami Hairchaitanya Shanti Ashram Trust, each day begins and ends in surrender - through aarti, kirtan, and the quiet remembrance of the Divine that flows beneath all activity.
               </p>
             </div>
 

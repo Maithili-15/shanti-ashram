@@ -63,8 +63,12 @@ const Navbar = () => {
       className="fixed top-0 z-50 w-full bg-[#fcf9f4]/80 backdrop-blur-xl shadow-sm"
     >
       <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-6 py-5 md:px-10">
-        <Link to="/" className="font-serif text-2xl italic text-[#904819]">
-          Shanti Ashram
+        <Link
+          to="/"
+          className="font-serif text-2xl italic text-[#904819] leading-tight flex flex-col items-start"
+        >
+          <span className="block">Swami Hairchaitanya</span>
+          <span className="block">Shanti Ashram Trust</span>
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">
