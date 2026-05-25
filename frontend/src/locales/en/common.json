@@ -32,8 +32,8 @@
     "ashramNameHi": "श्री गुरुदेव आश्रम",
     "ashramLocationHi": "श्री गुरुदेव आश्रम,\nपळसखेड (सपकाळ)",
     "aboutSubmenu": {
-      "shriGurudevAshram": "Shanti Ashram",
-      "shantiAshram": "Shanti Ashram"
+      "shriGurudevAshram": "Swami Hairchaitanya Shanti Ashram Trust",
+      "shantiAshram": "Swami Hairchaitanya Shanti Ashram Trust"
     }
   },
   "hero": {
@@ -42,15 +42,15 @@
     "shopComingSoon": "Shop Coming Soon"
   },
   "home": {
-    "title": "Shanti Ashram Palaskhed Sapkal",
+    "title": "Swami Hairchaitanya Shanti Ashram Trust Palaskhed Sapkal",
     "subtitle": "Param Pujya Shri Swami Harichaitanyanand Saraswatiji Maharaj's seva kshetra for bhakti, gyan and nishkam seva",
     "aboutTitle": "About Our Ashram",
     "aboutSubtitle": "Serving devotees through satsang, annadan, education, gau seva and selfless service",
     "gurudevName1": "Param Pujya Shri Swami",
     "gurudevName2": "Harichaitanyanand Saraswatiji Maharaj",
     "ashramLocations": "Ashram Locations",
-    "ashramAddress1": "Shanti Ashram, Palaskhed Sapkal, Tehsil Chikhli, District Buldhana, Maharashtra - 443001",
-    "ashramAddress2": "Swami Harichaitanya Shanti Ashram Trust, Datala, Tehsil Malkapur, District Buldhana - 443102",
+    "ashramAddress1": "Swami Hairchaitanya Shanti Ashram Trust, Palaskhed Sapkal, Tehsil Chikhli, District Buldhana, Maharashtra - 443001",
+    "ashramAddress2": "Swami Hairchaitanya Shanti Ashram Trust, Datala, Tehsil Malkapur, District Buldhana - 443102",
     "contactNumbers": "Contact Numbers",
     "emailWebsite": "Email & Website",
     "ourActivities": "Our Activities",
@@ -72,7 +72,7 @@
   },
   "gurudev": {
     "name": "Param Pujya Shri Swami\nHarichaitanyanand Saraswatiji Maharaj",
-    "description": "Founder and spiritual guide of Shanti Ashram (Palaskhed Sapkal, Chikhli, Buldhana) and Swami Harichaitanya Shanti Ashram Trust (Datala, Malkapur)",
+    "description": "Founder and spiritual guide of Swami Hairchaitanya Shanti Ashram Trust (Palaskhed Sapkal, Chikhli, Buldhana) and Swami Hairchaitanya Shanti Ashram Trust (Datala, Malkapur)",
     "about1": "Gurudev ji showed the path of living with bhakti, gyan and selfless seva together. Through daily satsang, Gita path, Haripath, annadan, education, medical, gaushala, gurukulam, adivasi seva, anath ashram and Seva Tirth Dham, service is rendered to society at the ashram.",
     "about2": "The purpose of every seva work is to purify the mind and uplift society. Branches and services inspired by Gurudev ji connect devotees across different parts of the country.",
     "teachingsTitle": "Teachings & Daily Sadhana",
@@ -94,9 +94,9 @@
     "branchesTitle": "Ashram Branches",
     "branches": {
       "malvihir": "Shri Vaishnavi Gita Ashram, Malvihir, District Buldhana",
-      "datala": "Shri Harichaitanya Shanti Ashram, Datala, Tehsil Malkapur, District Buldhana",
-      "muktainagar": "Shanti Ashram, Muktainagar, District Jalgaon",
-      "kothala": "Shanti Ashram, Kothala, Tehsil Manwat, District Parbhani",
+      "datala": "Swami Hairchaitanya Shanti Ashram Trust, Datala, Tehsil Malkapur, District Buldhana",
+      "muktainagar": "Swami Hairchaitanya Shanti Ashram Trust, Muktainagar, District Jalgaon",
+      "kothala": "Swami Hairchaitanya Shanti Ashram Trust, Kothala, Tehsil Manwat, District Parbhani",
       "shindi": "Shri Harichaitanya Godham, Shindi Harali, Chikhli, District Buldhana",
       "belgaum": "Shri Balmukund Ashram, Belgaum, Karnataka"
     },
@@ -123,9 +123,9 @@
     "darshanMorning": "04:30 am to 01:00 pm",
     "darshanEvening": "04:30 pm to 09:00 pm",
     "timingsNote": "Temple timings may be changed on special occasions.",
-    "ashramName": "Shanti Ashram",
-    "ashramAddress1": "Shanti Ashram, Palaskhed Sapkal, Tehsil Chikhli, District Buldhana, Maharashtra - 443001",
-    "ashramAddress2": "Swami Harichaitanya Shanti Ashram Trust, Datala, Tehsil Malkapur, District Buldhana - 443102",
+    "ashramName": "Swami Hairchaitanya Shanti Ashram Trust",
+    "ashramAddress1": "Swami Hairchaitanya Shanti Ashram Trust, Palaskhed Sapkal, Tehsil Chikhli, District Buldhana, Maharashtra - 443001",
+    "ashramAddress2": "Swami Hairchaitanya Shanti Ashram Trust, Datala, Tehsil Malkapur, District Buldhana - 443102",
     "followUs": "FOLLOW US",
     "socialHandle": "@swamiharichaitanyanands",
     "phone": "Phone",
@@ -136,29 +136,29 @@
     "branchesTitle": "Ashram Branches",
     "branches": {
       "malvihir": "Shri Vaishnavi Gita Ashram, Malvihir, District Buldhana",
-      "datala": "Shri Harichaitanya Shanti Ashram, Datala, Tehsil Malkapur, District Buldhana",
-      "muktainagar": "Shanti Ashram, Muktainagar, District Jalgaon",
-      "kothala": "Shanti Ashram, Kothala, Tehsil Manwat, District Parbhani",
+      "datala": "Swami Hairchaitanya Shanti Ashram Trust, Datala, Tehsil Malkapur, District Buldhana",
+      "muktainagar": "Swami Hairchaitanya Shanti Ashram Trust, Muktainagar, District Jalgaon",
+      "kothala": "Swami Hairchaitanya Shanti Ashram Trust, Kothala, Tehsil Manwat, District Parbhani",
       "shindi": "Shri Harichaitanya Godham, Shindi Harali, Chikhli, District Buldhana",
       "belgaum": "Shri Balmukund Ashram, Belgaum, Karnataka"
     },
     "bankTitle": "Bank Account Details",
     "bank1": {
-      "name": "Shanti Ashram",
+      "name": "Swami Hairchaitanya Shanti Ashram Trust",
       "bank": "State Bank of India",
       "account": "A/c No: 32035015646",
       "ifsc": "IFSC: SBIN0008409",
       "branch": "Branch: Shelsur"
     },
     "bank2": {
-      "name": "Swami Hari Chaitanya Shanti Ashram Trust",
+      "name": "Swami Hairchaitanya Shanti Ashram Trust",
       "bank": "HDFC Bank",
       "account": "A/c: 50200089955981",
       "ifsc": "IFSC: HDFC0002489",
       "branch": "Branch: Buldhana"
     },
     "taxNote": "Donations are tax-exempt under Section 80G of the Income Tax Act, 1961.",
-    "copyright": "© {{year}} Shanti Ashram, Palaskhed Sapkal. All rights reserved."
+    "copyright": "© {{year}} Swami Hairchaitanya Shanti Ashram Trust, Palaskhed Sapkal. All rights reserved."
   },
   "donation": {
     "makeTitle": "Make a Donation",
@@ -563,7 +563,7 @@
     "title": "Top Collectors",
     "subtitle": "Our amazing volunteers helping spread the word",
     "heading": "Collector Leaderboard",
-    "description": "Recognizing collectors who have helped gather the most donations for Shanti Ashram",
+    "description": "Recognizing collectors who have helped gather the most donations for Swami Hairchaitanya Shanti Ashram Trust",
     "rank": "Rank",
     "collector": "Collector",
     "totalCollected": "Total Collected",
@@ -574,7 +574,7 @@
     "noCollectorsNote": "Be the first to become a collector and help spread our mission.",
     "becomeCollector": "Become a Collector",
     "wantOnLeaderboard": "Want to be on the leaderboard?",
-    "spreadWord": "Become a collector and help spread the word about Shanti Ashram's mission.",
+    "spreadWord": "Become a collector and help spread the word about Swami Hairchaitanya Shanti Ashram Trust's mission.",
     "makeDonation": "Make a Donation",
     "infoNote": "Leaderboard shows top 5 collectors by total donation amount collected.\nOnly successful donations are counted.",
     "tryAgain": "Try Again"
@@ -588,7 +588,7 @@
     "shareEmail": "Share via Email",
     "share": "Share",
     "close": "Close",
-    "emailSubject": "Support Shanti Ashram - Donate Now",
+    "emailSubject": "Support Swami Hairchaitanya Shanti Ashram Trust - Donate Now",
     "shareTitle": "Share Your Referral Link",
     "shareDescription": "Generate a personalized donation link to share with friends and family",
     "simpleLink": "Simple Link",

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="mx-auto grid max-w-screen-2xl grid-cols-1 gap-12 border-b border-[#3d2010] px-10 pb-10 md:grid-cols-4 md:gap-12">
         <div>
           <h4 className="mb-3 font-serif text-[19px] italic text-[#d4874a]">
-            Shanti Ashram
+            Swami Hairchaitanya Shanti Ashram Trust
           </h4>
           <p className="max-w-[180px] text-[12.5px] leading-[1.7] text-[#8a6550]">
             A sanctuary of bhakti, gyan, and nishkam seva in the heart of
@@ -103,7 +103,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-10 py-4 text-[11.5px] text-[#5a3820]">
-        <span>© {currentYear} Shanti Ashram · Pandharpur, Maharashtra</span>
+        <span>© {currentYear} Swami Hairchaitanya Shanti Ashram Trust · Pandharpur, Maharashtra</span>
         <span className="normal-case text-[#7a5d4d]">राधे राधे</span>
       </div>
     </footer>
